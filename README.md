@@ -3,7 +3,7 @@
 </p>
 
 <h1>Preparing Active Directory Infastructure in Azure</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial will focus on creating and configuring two Vitrual Machines, one acting as our Domain Controller running Windows Server, and the other acting as our Client that will join the Domain Server.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -16,4 +16,60 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server
 - Windows 10 Pro
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Virtual Machine Configuration and Deployment</h2>
+<p>
+<img src="https://i.imgur.com/mn2KoJx.png" height="80%" width="80%" alt="Create Resource Group"/>
+<br />
+<br />
+<img src="https://i.imgur.com/7QM3Een.png" height="80%" width="80%" alt="Create Virtual Network"/>
+<br />
+<br />
+<img src="https://i.imgur.com/S9Fgu7q.png" height="80%" width="80%" alt="Create Domain Controller"/>
+<br />
+<br />
+<img src="https://i.imgur.com/ujaGLIE.png" height="80%" width="80%" alt="Domain Controller Login Credentials"/>
+<br />
+<br />
+<img src="https://i.imgur.com/g4wQOlj.png" height="80%" width="80%" alt="Domain Controller Deploy Within Created Virtual Network"/>
+<br />
+<br />
+<img src="https://i.imgur.com/CcaWXnv.png" height="80%" width="80%" alt="Client Creation"/>
+<br />
+<br />
+<img src="https://i.imgur.com/6ExHYiu.png" height="80%" width="80%" alt="Client Login Credentials"/>
+<br />
+<br />
+<img src="https://i.imgur.com/kYjKSu1.png" height="80%" width="80%" alt="Client Deploy Within Created Virtual Network"/>
+<br />
+<br />
+<img src="https://i.imgur.com/hVLdrCI.png" height="80%" width="80%" alt="Domain Controller Network Interface Controller"/>
+<br />
+<br />
+<img src="https://i.imgur.com/3FUVOUi.png" height="80%" width="80%" alt="Domain Controller Static IP"/>
+<br />
+<br />
+<img src="https://i.imgur.com/6L3xdhA.png" height="80%" width="80%" alt="Remote Desktop into Domain Controller"/>
+<br />
+<br />
+<img src="https://i.imgur.com/tJSnkfK.png" height="80%" width="80%" alt="Domain Controller First Login"/>
+<br />
+<br />
+<img src="https://i.imgur.com/lXnRiJ1.png" height="80%" width="80%" alt="Windows Run Firewall"/>
+<br />
+<br />
+<img src="https://i.imgur.com/iWhjlkT.png" height="80%" width="80%" alt="Turn Firewall Off"/>
+<br />
+<br />
+<img src="https://i.imgur.com/IxkrFYq.png" height="80%" width="80%" alt="Domain Controller Private IP"/>
+<br />
+<br />
+  <img src="https://i.imgur.com/WeLPEQD.png" height="80%" width="80%" alt="Client Network Interface Controller"/>
+<br />
+<br />
+<img src="https://i.imgur.com/rU3u61s.png" height="80%" width="80%" alt="Edit Client DNS"/>
+<br />
+<br />
+<img src="https://i.imgur.com/2Tt2CVJ.png" height="80%" width="80%" alt="Client Ping DNS IP"/>
+<br />
+<br />
+<img src="https://i.imgur.com/SjQBjPS.png" height="80%" width="80%" alt="IPconfig /all DNS Server IP"/>
