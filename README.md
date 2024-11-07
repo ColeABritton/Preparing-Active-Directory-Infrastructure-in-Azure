@@ -18,15 +18,16 @@ This tutorial will focus on creating and configuring two Vitrual Machines, one a
 
 <h2>Virtual Machine Configuration and Deployment</h2>
 <p>
+Create a resource group within Microsoft Azure
 <img src="https://i.imgur.com/mn2KoJx.png" height="80%" width="80%" alt="Create Resource Group"/>
 <br />
 <br />
+Create a virtual network making sure to put it in the resource group we just created. Allow a few minutes for the v-net to deploy before continuing to the next step.
 <img src="https://i.imgur.com/7QM3Een.png" height="80%" width="80%" alt="Create Virtual Network"/>
 <br />
 <br />
+Create and setup the virtual machine that will be our Domain Controller.
 <img src="https://i.imgur.com/S9Fgu7q.png" height="80%" width="80%" alt="Create Domain Controller"/>
-<br />
-<br />
 <img src="https://i.imgur.com/ujaGLIE.png" height="80%" width="80%" alt="Domain Controller Login Credentials"/>
 <br />
 <br />
